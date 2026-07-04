@@ -1,13 +1,15 @@
 # Museum Exhibit Guide — QR Landing Pages
 
-A mobile-first Next.js (App Router) site for 14 museum exhibits. Each
+A mobile-first Next.js (App Router) site for 21 museum exhibits. Each
 exhibit gets a physical QR code pointing at its own URL; scanning it opens
 a page with the artifact's photo, title, an audio-guide bar, and a
 description — in Uzbek, English, or Arabic (full RTL support for Arabic).
 
-Content for all 14 exhibits was pulled directly from the museum's
-labeling document and lives in `data/exhibitsData.ts` — nothing to
-re-type.
+Content for all 21 exhibits was pulled directly from the museum's
+labeling documents and lives in `data/exhibitsData.ts` — nothing to
+re-type. Adding a 22nd exhibit later is just one more object in that
+array; every page (`generateStaticParams`, the gallery rail's "N / total"
+counter, etc.) is already driven off `exhibitsData.length`.
 
 ## What's inside
 
@@ -33,11 +35,11 @@ public/assets/            Drop your photos here (see below)
 
 ## 1. Add your photos
 
-The QR/image side is deliberately decoupled from content. Drop 14 images
+The QR/image side is deliberately decoupled from content. Drop 21 images
 into `public/assets/` named exactly:
 
 ```
-exhibit1.jpg  exhibit2.jpg  ...  exhibit14.jpg
+exhibit1.jpg  exhibit2.jpg  ...  exhibit21.jpg
 ```
 
 (`.png` is fine too — just update the matching `image` field in
@@ -72,7 +74,7 @@ Point each physical label's QR code at:
 https://your-domain.vercel.app/exhibit/1
 https://your-domain.vercel.app/exhibit/2
 ...
-https://your-domain.vercel.app/exhibit/14
+https://your-domain.vercel.app/exhibit/21
 ```
 
 (The query-param form `https://your-domain.vercel.app/?exhibitId=7` also

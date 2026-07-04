@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { exhibitsData } from "@/data/exhibitsData";
 
 export default function NotFound() {
   return (
@@ -11,8 +10,8 @@ export default function NotFound() {
         This exhibit couldn&apos;t be found
       </h1>
       <p className="max-w-xs text-sm text-vellum-dim/70">
-        The QR code may point to an exhibit outside the current collection
-        (1–{exhibitsData.length}). Browse the gallery instead.
+        The QR code may point to an exhibit outside the current
+        collection. Browse the gallery instead.
       </p>
       <Link
         href="/exhibit/1"

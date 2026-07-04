@@ -4,7 +4,7 @@ import GalleryRail from "@/components/GalleryRail";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 import ExhibitView from "@/components/ExhibitView";
 
-// Pre-render all exhibit pages at build time — instant loads for
+// Pre-render every exhibit page at build time — instant loads for
 // anyone scanning a physical QR code, no server round-trip needed.
 export function generateStaticParams() {
   return exhibitsData.map((e) => ({ id: String(e.id) }));

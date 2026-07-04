@@ -3,7 +3,7 @@
 // Content sourced directly from the museum's labeling document
 // ("Этикетаж QR code"). Images are NOT included here as files: drop your
 // photos into /public/assets/ using the exact filenames referenced below
-// (exhibit1.png ... exhibit21.png) and everything will pick them up.
+// (exhibit1.jpg ... exhibit14.jpg) and everything will pick them up.
 
 export interface ExhibitTranslation {
   /** Short label used in the top gallery rail, e.g. "Quran Manuscript" */
@@ -28,7 +28,7 @@ export interface Exhibit {
 export const exhibitsData: Exhibit[] = [
   {
     id: 1,
-    image: "/assets/exhibit1.png",
+    image: "/assets/exhibit1.jpg",
     uz: {
       shortTitle: "Qur'on (G'arbiy Afrika)",
       title: "Charm g'ilofli Qur'oni Karim",
@@ -53,7 +53,7 @@ export const exhibitsData: Exhibit[] = [
   },
   {
     id: 2,
-    image: "/assets/exhibit2.png",
+    image: "/assets/exhibit2.jpg",
     uz: {
       shortTitle: "Dawlatabodiy Qur'oni",
       title: "Muhammad Taqi Dawlatabodiy qo'lyozmasi",
@@ -78,7 +78,7 @@ export const exhibitsData: Exhibit[] = [
   },
   {
     id: 3,
-    image: "/assets/exhibit3.png",
+    image: "/assets/exhibit3.jpg",
     uz: {
       shortTitle: "Qur'on, 1744-yil",
       title: "Lak qoplamali Qur'oni Karim",
@@ -103,7 +103,7 @@ export const exhibitsData: Exhibit[] = [
   },
   {
     id: 4,
-    image: "/assets/exhibit4.png",
+    image: "/assets/exhibit4.jpg",
     uz: {
       shortTitle: "Kufiy xat sahifasi",
       title: "Qur'on sahifasi — sharqiy kufiy xat",
@@ -128,7 +128,7 @@ export const exhibitsData: Exhibit[] = [
   },
   {
     id: 5,
-    image: "/assets/exhibit5.png",
+    image: "/assets/exhibit5.jpg",
     uz: {
       shortTitle: "Zumar — Sod sahifasi",
       title: "Ikki tomonlama Qur'on sahifasi",
@@ -153,7 +153,7 @@ export const exhibitsData: Exhibit[] = [
   },
   {
     id: 6,
-    image: "/assets/exhibit6.png",
+    image: "/assets/exhibit6.jpg",
     uz: {
       shortTitle: "G'ubor xat lavhasi",
       title: "Kalligrafik lavha — g'ubor xat",
@@ -173,12 +173,12 @@ export const exhibitsData: Exhibit[] = [
       title: "لوحة خط بأسلوب الغبار",
       description:
         "لوحة خط كتبت بخط الغبار تحمل عبارة \"اللهم إني أحمدك من كل نعمة\". آسيا الوسطى، القرن الثالث عشر للهجرة. حبر على ورق.",
-      dimensions: "48.5 × 18.2 sm"
+      dimensions: "48.5 × 18.2 سم"
     }
   },
   {
     id: 7,
-    image: "/assets/exhibit7.png",
+    image: "/assets/exhibit7.jpg",
     uz: {
       shortTitle: "Dur an-Najaf toshlari",
       title: "115 dona Dur an-Najaf toshlari",
@@ -203,7 +203,7 @@ export const exhibitsData: Exhibit[] = [
   },
   {
     id: 8,
-    image: "/assets/exhibit8.png",
+    image: "/assets/exhibit8.jpg",
     uz: {
       shortTitle: "Mo'g'ul qulfi va kaliti",
       title: "Oltin inkrustatsiyali qulf va kalit",
@@ -223,12 +223,12 @@ export const exhibitsData: Exhibit[] = [
       title: "قفل مع مفتاح مكفت بالذهب",
       description:
         "قفل مع مفتاح، الهند أو آسيا الوسطى، العصر المغولي أو القاجاري، القرن الثالث عشر للهجرة. معدن، زخارف محفورة ومفرغة، مكفت بالذهب.",
-      dimensions: "18 × 13 sm"
+      dimensions: "18 × 13 سم"
     }
   },
   {
     id: 9,
-    image: "/assets/exhibit9.png",
+    image: "/assets/exhibit9.jpg",
     uz: {
       shortTitle: "Harom mis parchasi",
       title: "Makka Haram masjididan mis parcha",
@@ -253,7 +253,7 @@ export const exhibitsData: Exhibit[] = [
   },
   {
     id: 10,
-    image: "/assets/exhibit10.png",
+    image: "/assets/exhibit10.jpg",
     uz: {
       shortTitle: "Kitob muqovasi",
       title: "Lak qoplamali kitob muqovasi",
@@ -278,7 +278,7 @@ export const exhibitsData: Exhibit[] = [
   },
   {
     id: 11,
-    image: "/assets/exhibit11.png",
+    image: "/assets/exhibit11.jpg",
     uz: {
       shortTitle: "Kiswa paneli",
       title: "Ka'ba yopqichi — \"Ixlos\" surasi kashtasi",
@@ -298,12 +298,12 @@ export const exhibitsData: Exhibit[] = [
       title: "كردشية من كسوة الكعبة المشرفة",
       description:
         "كردشية \"صمدية\" من كسوة الكعبة المشرفة، صنعت في القاهرة، مصر، أواخر القرن الثالث عشر الهجري. حرير وأسلاك من فضة مطلية بالذهب، نقشت عليها سورة الإخلاص.",
-      dimensions: "94 × 78 sm"
+      dimensions: "94 × 78 سم"
     }
   },
   {
     id: 12,
-    image: "/assets/exhibit12.png",
+    image: "/assets/exhibit12.jpg",
     uz: {
       shortTitle: "Hujra qoplamasi",
       title: "Payg'ambar hujralari qoplamasidan parcha",
@@ -328,7 +328,7 @@ export const exhibitsData: Exhibit[] = [
   },
   {
     id: 13,
-    image: "/assets/exhibit13.png",
+    image: "/assets/exhibit13.jpg",
     uz: {
       shortTitle: "Kiswa kamari",
       title: "Ka'ba kisvasidan panel — Hijr surasi",
@@ -353,7 +353,7 @@ export const exhibitsData: Exhibit[] = [
   },
   {
     id: 14,
-    image: "/assets/exhibit14.png",
+    image: "/assets/exhibit14.jpg",
     uz: {
       shortTitle: "Ka'ba eshigi pardasi",
       title: "\"Tavba eshigi\" pardasi",
@@ -378,156 +378,177 @@ export const exhibitsData: Exhibit[] = [
   },
   {
     id: 15,
-    image: "/assets/exhibit15.png",
+    image: "/assets/exhibit15.jpg",
     uz: {
-      shortTitle: "Kaʼba eshigi pardasi (Burqaʼ)",
-      title: "Muqaddas Kaʼba eshigining metall iplar bilan tikilgan pardasi (Burqaʼ)",
-      description: "Muqaddas Kaʼba eshigining metall iplar bilan tikilgan pardasi (Burqaʼ). 1880-yil. OʻzISM.",
+      shortTitle: "Ka'ba eshigi pardasi (Burqa')",
+      title: "Metall iplar bilan tikilgan Burqa'",
+      description:
+        "Muqaddas Ka'ba eshigining metall iplar bilan tikilgan pardasi (Burqa'). 1880-yil.",
       dimensions: "280 × 570 sm"
     },
     en: {
-      shortTitle: "Kaaba Door Curtain (Burqa)",
-      title: "The curtain of the sacred Kaaba door, embroidered with metallic threads (Burqaʿ)",
-      description: "The curtain of the sacred Kaaba door, embroidered with metallic threads (Burqaʿ). 1880. ICC.",
+      shortTitle: "Kaaba Door Curtain (Burqa')",
+      title: "Curtain of the Sacred Kaaba Door (Burqa')",
+      description:
+        "The curtain of the sacred Kaaba door, embroidered with metallic threads (Burqa'). 1880.",
       dimensions: "280 × 570 cm"
     },
     ar: {
-      shortTitle: "ستارة باب الكعبة (البرقع)",
-      title: "ستارة باب الكعبة المشرفة المطرزة بخيوط معدنية (البرقع)",
-      description: "ستارة باب الكعبة المشرفة المطرزة بخيوط معدنية (البرقع). عام ١٨٨٠م. OʻzISM.",
-      dimensions: "٢٨٠ × ٥٧٠ سم"
+      shortTitle: "ستارة الكعبة (البرقع)",
+      title: "ستارة باب الكعبة المشرفة المطرزة بخيوط معدنية",
+      description:
+        "ستارة باب الكعبة المشرفة، مطرزة بخيوط معدنية (البرقع). عام 1880.",
+      dimensions: "280 × 570 سم"
     }
   },
   {
     id: 16,
-    image: "/assets/exhibit16.png",
+    image: "/assets/exhibit16.jpg",
     uz: {
-      shortTitle: "Ka'ba kisvasi paneli",
-      title: "Ka'ba kisvasidan olingan kalligrafik panel (Hizam)",
-      description: "Ka'ba kisvasidan olingan kalligrafik panel (Hizam). Makka, XIX–XX asrlar.",
+      shortTitle: "Kalligrafik panel (Hizam)",
+      title: "Ka'ba kisvasidan kalligrafik panel (Hizam)",
+      description:
+        "Ka'ba kisvasidan olingan kalligrafik panel (Hizam). Makka, XIX-XX asrlar.",
       dimensions: "165 × 264 sm"
     },
     en: {
-      shortTitle: "Kiswah Calligraphic Panel",
-      title: "A calligraphic panel (hizam) from the Kaaba Kiswah",
-      description: "A calligraphic panel (hizam) from the Kaaba Kiswah. Mecca, 19th–20th centuries.",
+      shortTitle: "Calligraphic Panel (Hizam)",
+      title: "Calligraphic Panel (Hizam) from the Kaaba Kiswah",
+      description:
+        "A calligraphic panel (Hizam) from the Kaaba Kiswah. Mecca, 19th-20th centuries.",
       dimensions: "165 × 264 cm"
     },
     ar: {
       shortTitle: "لوحة خطية (حزام)",
-      title: "لوحة خطية (حزام) من كسوة الكعبة مكة المكرمة",
-      description: "لوحة خطية (حزام) من كسوة الكعبة مكة المكرمة. القرن التاسع عشر – القرن العشرون.",
-      dimensions: "١٦٥ × ٢٦٤ سم"
+      title: "لوحة خطية (حزام) من كسوة الكعبة",
+      description:
+        "لوحة خطية (حزام) من كسوة الكعبة المشرفة. مكة المكرمة، القرن التاسع عشر - القرن العشرون.",
+      dimensions: "165 × 264 سم"
     }
   },
   {
     id: 17,
-    image: "/assets/exhibit17.png",
+    image: "/assets/exhibit17.jpg",
     uz: {
-      shortTitle: "Maqbara yopinchig'i",
-      title: "Payg‘ambar Muhammad (sollallohu alayhi vasallam) maqbarasining yashil ipak yopinchig‘i",
-      description: "Payg‘ambar Muhammad (sollallohu alayhi vasallam) maqbarasining yashil ipak yopinchig‘i. Madina, XIX asr. Ashyosi: ipak.",
+      shortTitle: "Payg'ambar maqbarasi yopinchig'i",
+      title: "Yashil ipak yopinchiq — Payg'ambar maqbarasi",
+      description:
+        "Payg'ambar Muhammad (sollallohu alayhi vasallam) maqbarasining yashil ipak yopinchig'i. Madina, XIX asr. Ashyosi: ipak.",
       dimensions: "264 × 165 sm"
     },
     en: {
-      shortTitle: "Tomb Cover",
-      title: "Green Silk Cover of the Tomb of Prophet Muhammad (peace be upon him)",
-      description: "Green Silk Cover of the Tomb of Prophet Muhammad (peace be upon him). Medina, 19th century. Material: silk.",
+      shortTitle: "Prophet's Tomb Cover",
+      title: "Green Silk Cover of the Tomb of the Prophet",
+      description:
+        "Green silk cover of the tomb of Prophet Muhammad (peace be upon him). Medina, 19th century. Material: silk.",
       dimensions: "264 × 165 cm"
     },
     ar: {
-      shortTitle: "غطاء ضريح النبي ﷺ",
-      title: "غطاء ضريح من الحرير الأخضر لقبر النبي ﷺ",
-      description: "غطاء ضريح كبير مصنوع من الحرير الأخضر، مأخوذ من قبر النبي ﷺ. المدينة المنورة، التاريخ: ١٩٠٠م. المادة: الحرير.",
-      dimensions: "٢٦٤ × ١٦٥ سم"
+      shortTitle: "غطاء ضريح النبي",
+      title: "غطاء ضريح النبي من الحرير الأخضر",
+      description:
+        "غطاء ضريح كبير مصنوع من الحرير الأخضر، مأخوذ من قبر النبي ﷺ. المدينة المنورة، القرن التاسع عشر.",
+      dimensions: "165 × 264 سم"
     }
   },
   {
     id: 18,
-    image: "/assets/exhibit18.png",
+    image: "/assets/exhibit18.jpg",
     uz: {
-      shortTitle: "Ka’ba tarnovi",
-      title: "Ka’ba tarnovi (Rahmat tarnovi)",
-      description: "Ka’ba tarnovi (Rahmat tarnovi). Makka, XX asr. Ashyosi: zarhallangan latun.",
+      shortTitle: "Ka'ba tarnovi",
+      title: "Ka'ba tarnovi (Rahmat tarnovi)",
+      description:
+        "Ka'ba tarnovi (Rahmat tarnovi). Makka, XX asr. Ashyosi: zarhallangan latun.",
       dimensions: "260 × 29 × 28.6 sm"
     },
     en: {
       shortTitle: "Kaaba Water Spout",
-      title: "Ka’ba Water Spout (Mizab al-Rahma)",
-      description: "Ka’ba Water Spout (Mizab al-Rahma). Makkah, 20th century. Material: gilded brass.",
+      title: "Kaaba Water Spout (Mizab al-Rahma)",
+      description:
+        "Kaaba water spout (Mizab al-Rahma). Makkah, 20th century. Material: gilded brass.",
       dimensions: "260 × 29 × 28.6 cm"
     },
     ar: {
       shortTitle: "ميزاب الكعبة",
-      title: "ميزاب الكعبة المشرفة (ميزاب الرحمة)",
-      description: "ميزاب الكعبة المشرفة (ميزاب الرحمة)، مكة المكرمة. القرن العشرون. المادة: نحاس مطلي بالذهب.",
-      dimensions: "٢٦٠ × ٢٩ × ٢٨.٦ سم"
+      title: "ميزاب الكعبة (ميزاب الرحمة)",
+      description:
+        "ميزاب الكعبة المشرفة. مكة المكرمة، القرن العشرون.",
+      dimensions: "260 × 29 × 28.6 سم"
     }
   },
   {
     id: 19,
-    image: "/assets/exhibit19.png",
+    image: "/assets/exhibit19.jpg",
     uz: {
-      shortTitle: "“Muhammad” panno",
-      title: "“Muhammad” yozuvli panno",
-      description: "“Muhammad” yozuvli panno. Usmonlilar saltanati, XIX asr oxiri – XX asr boshi. Ashyosi: ipak va metall tolalar.",
+      shortTitle: "\"Muhammad\" panno",
+      title: "\"Muhammad\" yozuvli panno",
+      description:
+        "\"Muhammad\" yozuvli panno. Usmonlilar saltanati, XIX asr oxiri - XX asr boshi. Ashyosi: ipak va metall tolalar.",
       dimensions: "201 × 206 sm"
     },
     en: {
       shortTitle: "\"Muhammad\" Panel",
-      title: "Panel with the Inscription “Muhammad”",
-      description: "Panel with the Inscription “Muhammad” (peace be upon him). Ottoman Empire, late 19th – early 20th century. Materials: silk and metallic threads.",
+      title: "Panel with the Inscription \"Muhammad\"",
+      description:
+        "Panel with the inscription \"Muhammad\". Ottoman Empire, late 19th - early 20th century. Material: silk and metallic threads.",
       dimensions: "201 × 206 cm"
     },
     ar: {
-      shortTitle: "لوحة محمد ﷺ",
-      title: "لوحة تحمل اسم ”محمد ﷺ“",
-      description: "لوحة تحمل اسم ”محمد ﷺ“. الدولة العثمانية، أواخر القرن التاسع عشر – أوائل القرن العشرين. المادة: حرير وخيوط معدنية.",
-      dimensions: "٢٠١ × ٢٠٦ سم"
+      shortTitle: "لوحة \"محمد\"",
+      title: "لوحة تحمل لفظ الجلالة \"محمد ﷺ\"",
+      description:
+        "لوحة تحمل لفظ الجلالة \"محمد ﷺ\". الدولة العثمانية، أواخر القرن التاسع عشر - أوائل القرن العشرين. المادة: حرير وخيوط معدنية.",
+      dimensions: "201 × 206 سم"
     }
   },
   {
     id: 20,
-    image: "/assets/exhibit20.png",
+    image: "/assets/exhibit20.jpg",
     uz: {
-      shortTitle: "“Alloh” panno",
-      title: "“Alloh” yozuvli panno",
-      description: "“Alloh” yozuvli panno. Usmonlilar saltanati, XIX asr oxiri – XX asr boshi. Ashyosi: ipak va metall tolalar.",
+      shortTitle: "\"Alloh\" panno",
+      title: "\"Alloh\" yozuvli panno",
+      description:
+        "\"Alloh\" yozuvli panno. Usmonlilar saltanati, XIX asr oxiri - XX asr boshi. Ashyosi: ipak va metall tolalar.",
       dimensions: "202 × 205 sm"
     },
     en: {
       shortTitle: "\"Allah\" Panel",
-      title: "Panel with the Inscription “Allah”",
-      description: "Panel with the Inscription “Allah”. Ottoman Empire, late 19th – early 20th century. Materials: silk and metallic threads.",
+      title: "Panel with the Inscription \"Allah\"",
+      description:
+        "Panel with the inscription \"Allah\". Ottoman Empire, late 19th - early 20th century. Material: silk and metallic threads.",
       dimensions: "202 × 205 cm"
     },
     ar: {
-      shortTitle: "لوحة الله",
-      title: "لوحة تحمل لفظ الجلالة ”الله“",
-      description: "لوحة تحمل لفظ الجلالة ”الله“. الدولة العثمانية، أواخر القرن التاسع عشر – أوائل القرن العشرين. المادة: حرير وخيوط معدنية.",
-      dimensions: "٢٠٢ × ٢٠٥ سم"
+      shortTitle: "لوحة \"الله\"",
+      title: "لوحة تحمل لفظ الجلالة \"الله\"",
+      description:
+        "لوحة تحمل لفظ الجلالة \"الله\". الدولة العثمانية، أواخر القرن التاسع عشر - أوائل القرن العشرين. المادة: حرير وخيوط معدنية.",
+      dimensions: "202 × 205 سم"
     }
   },
   {
     id: 21,
-    image: "/assets/exhibit21.png",
+    image: "/assets/exhibit21.jpg",
     uz: {
       shortTitle: "Duo kitobi",
-      title: "“Dalāil al-xayrot” va “Al-hizb al-aʼzam” asarlaridan iborat duo kitobi",
-      description: "“Dalāil al-xayrot” va “Al-hizb al-aʼzam” asarlaridan iborat duo kitobi. Muallif: Imomzoda al-Haj Muhammad. Yaratilgan davri: 1793–1795-yillar.",
+      title: "\"Dalāil al-xayrot\" va \"Al-hizb al-a'zam\"",
+      description:
+        "\"Dalāil al-xayrot\" va \"Al-hizb al-a'zam\" asarlaridan iborat duo kitobi. Muallif: Imomzoda al-Haj Muhammad. Yaratilgan davri: 1793-1795-yillar.",
       dimensions: "15.8 × 20.2 sm"
     },
     en: {
       shortTitle: "Prayer Book",
-      title: "Prayer Book Containing Dalāʾil al-Khayrāt and Al-Ḥizb al-Aʿzham",
-      description: "Prayer Book containing Dalāʾil al-Khayrāt and Al-Ḥizb al-Aʿẓam. Author: Imomzoda al-Hajj Muhammad. Date: 1793–1795.",
+      title: "Prayer Book: Dala'il al-Khayrat & Al-Hizb al-A'zam",
+      description:
+        "Prayer book containing Dala'il al-Khayrat and Al-Hizb al-A'zam. Author: Imomzoda al-Hajj Muhammad. Date: 1793-1795.",
       dimensions: "15.8 × 20.2 cm"
     },
     ar: {
       shortTitle: "كتاب أدعية",
-      title: "كتاب أدعية يضم كتابي ”دلائل الخيرات“ و”الحزب الأعظم“",
-      description: "كتاب أدعية يضم كتابي ”دلائل الخيرات“ و”الحزب الأعظم“. المؤلف: الإمام زاده الحاج محمد. تاريخ النسخ: ١٧٩٣–١٧٩٥م.",
-      dimensions: "١٥.٨ × ٢٠.٢ سم"
+      title: "كتاب أدعية: دلائل الخيرات والحزب الأعظم",
+      description:
+        "كتاب أدعية يضم كتابي \"دلائل الخيرات\" و\"الحزب الأعظم\". المؤلف: الإمام زاده الحاج محمد. تاريخ النسخ: 1793-1795م.",
+      dimensions: "15.8 × 20.2 سم"
     }
   }
 ];
