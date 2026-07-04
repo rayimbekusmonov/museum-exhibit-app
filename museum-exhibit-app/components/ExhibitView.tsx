@@ -1,6 +1,6 @@
 "use client";
 
-import { Exhibit } from "@/data/exhibitsData";
+import { Exhibit, exhibitsData } from "@/data/exhibitsData";
 import { useLanguage } from "@/context/LanguageContext";
 import CornerOrnament from "./CornerOrnament";
 
@@ -34,7 +34,7 @@ export default function ExhibitView({ exhibit }: { exhibit: Exhibit }) {
           />
         </div>
         <span className="absolute -top-3 start-3 rounded-full border border-gold/50 bg-ink-950 px-2.5 py-0.5 font-mono text-[0.65rem] tracking-widest text-gold-soft sm:-top-3.5">
-          {String(exhibit.id).padStart(2, "0")} / 14
+          {String(exhibit.id).padStart(2, "0")} / {exhibitsData.length}
         </span>
       </div>
 

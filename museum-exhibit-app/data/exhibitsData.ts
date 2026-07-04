@@ -3,7 +3,7 @@
 // Content sourced directly from the museum's labeling document
 // ("Этикетаж QR code"). Images are NOT included here as files: drop your
 // photos into /public/assets/ using the exact filenames referenced below
-// (exhibit1.jpg ... exhibit14.jpg) and everything will pick them up.
+// (exhibit1.png ... exhibit21.png) and everything will pick them up.
 
 export interface ExhibitTranslation {
   /** Short label used in the top gallery rail, e.g. "Quran Manuscript" */
@@ -374,6 +374,160 @@ export const exhibitsData: Exhibit[] = [
       description:
         "ستارة الباب الداخلي للكعبة \"باب التوبة\"، صنعت في القاهرة، مصر، خلال عهد الملك فاروق الأول بن الملك فؤاد الأول. أهديت للكعبة بتاريخ 1368هـ. حرير مصبوغ بالألوان، أسلاك من الفضة، قطن.",
       dimensions: "القاهرة، 1368هـ"
+    }
+  },
+  {
+    id: 15,
+    image: "/assets/exhibit15.png",
+    uz: {
+      shortTitle: "Kaʼba eshigi pardasi (Burqaʼ)",
+      title: "Muqaddas Kaʼba eshigining metall iplar bilan tikilgan pardasi (Burqaʼ)",
+      description: "Muqaddas Kaʼba eshigining metall iplar bilan tikilgan pardasi (Burqaʼ). 1880-yil. OʻzISM.",
+      dimensions: "280 × 570 sm"
+    },
+    en: {
+      shortTitle: "Kaaba Door Curtain (Burqa)",
+      title: "The curtain of the sacred Kaaba door, embroidered with metallic threads (Burqaʿ)",
+      description: "The curtain of the sacred Kaaba door, embroidered with metallic threads (Burqaʿ). 1880. ICC.",
+      dimensions: "280 × 570 cm"
+    },
+    ar: {
+      shortTitle: "ستارة باب الكعبة (البرقع)",
+      title: "ستارة باب الكعبة المشرفة المطرزة بخيوط معدنية (البرقع)",
+      description: "ستارة باب الكعبة المشرفة المطرزة بخيوط معدنية (البرقع). عام ١٨٨٠م. OʻzISM.",
+      dimensions: "٢٨٠ × ٥٧٠ سم"
+    }
+  },
+  {
+    id: 16,
+    image: "/assets/exhibit16.png",
+    uz: {
+      shortTitle: "Ka'ba kisvasi paneli",
+      title: "Ka'ba kisvasidan olingan kalligrafik panel (Hizam)",
+      description: "Ka'ba kisvasidan olingan kalligrafik panel (Hizam). Makka, XIX–XX asrlar.",
+      dimensions: "165 × 264 sm"
+    },
+    en: {
+      shortTitle: "Kiswah Calligraphic Panel",
+      title: "A calligraphic panel (hizam) from the Kaaba Kiswah",
+      description: "A calligraphic panel (hizam) from the Kaaba Kiswah. Mecca, 19th–20th centuries.",
+      dimensions: "165 × 264 cm"
+    },
+    ar: {
+      shortTitle: "لوحة خطية (حزام)",
+      title: "لوحة خطية (حزام) من كسوة الكعبة مكة المكرمة",
+      description: "لوحة خطية (حزام) من كسوة الكعبة مكة المكرمة. القرن التاسع عشر – القرن العشرون.",
+      dimensions: "١٦٥ × ٢٦٤ سم"
+    }
+  },
+  {
+    id: 17,
+    image: "/assets/exhibit17.png",
+    uz: {
+      shortTitle: "Maqbara yopinchig'i",
+      title: "Payg‘ambar Muhammad (sollallohu alayhi vasallam) maqbarasining yashil ipak yopinchig‘i",
+      description: "Payg‘ambar Muhammad (sollallohu alayhi vasallam) maqbarasining yashil ipak yopinchig‘i. Madina, XIX asr. Ashyosi: ipak.",
+      dimensions: "264 × 165 sm"
+    },
+    en: {
+      shortTitle: "Tomb Cover",
+      title: "Green Silk Cover of the Tomb of Prophet Muhammad (peace be upon him)",
+      description: "Green Silk Cover of the Tomb of Prophet Muhammad (peace be upon him). Medina, 19th century. Material: silk.",
+      dimensions: "264 × 165 cm"
+    },
+    ar: {
+      shortTitle: "غطاء ضريح النبي ﷺ",
+      title: "غطاء ضريح من الحرير الأخضر لقبر النبي ﷺ",
+      description: "غطاء ضريح كبير مصنوع من الحرير الأخضر، مأخوذ من قبر النبي ﷺ. المدينة المنورة، التاريخ: ١٩٠٠م. المادة: الحرير.",
+      dimensions: "٢٦٤ × ١٦٥ سم"
+    }
+  },
+  {
+    id: 18,
+    image: "/assets/exhibit18.png",
+    uz: {
+      shortTitle: "Ka’ba tarnovi",
+      title: "Ka’ba tarnovi (Rahmat tarnovi)",
+      description: "Ka’ba tarnovi (Rahmat tarnovi). Makka, XX asr. Ashyosi: zarhallangan latun.",
+      dimensions: "260 × 29 × 28.6 sm"
+    },
+    en: {
+      shortTitle: "Kaaba Water Spout",
+      title: "Ka’ba Water Spout (Mizab al-Rahma)",
+      description: "Ka’ba Water Spout (Mizab al-Rahma). Makkah, 20th century. Material: gilded brass.",
+      dimensions: "260 × 29 × 28.6 cm"
+    },
+    ar: {
+      shortTitle: "ميزاب الكعبة",
+      title: "ميزاب الكعبة المشرفة (ميزاب الرحمة)",
+      description: "ميزاب الكعبة المشرفة (ميزاب الرحمة)، مكة المكرمة. القرن العشرون. المادة: نحاس مطلي بالذهب.",
+      dimensions: "٢٦٠ × ٢٩ × ٢٨.٦ سم"
+    }
+  },
+  {
+    id: 19,
+    image: "/assets/exhibit19.png",
+    uz: {
+      shortTitle: "“Muhammad” panno",
+      title: "“Muhammad” yozuvli panno",
+      description: "“Muhammad” yozuvli panno. Usmonlilar saltanati, XIX asr oxiri – XX asr boshi. Ashyosi: ipak va metall tolalar.",
+      dimensions: "201 × 206 sm"
+    },
+    en: {
+      shortTitle: "\"Muhammad\" Panel",
+      title: "Panel with the Inscription “Muhammad”",
+      description: "Panel with the Inscription “Muhammad” (peace be upon him). Ottoman Empire, late 19th – early 20th century. Materials: silk and metallic threads.",
+      dimensions: "201 × 206 cm"
+    },
+    ar: {
+      shortTitle: "لوحة محمد ﷺ",
+      title: "لوحة تحمل اسم ”محمد ﷺ“",
+      description: "لوحة تحمل اسم ”محمد ﷺ“. الدولة العثمانية، أواخر القرن التاسع عشر – أوائل القرن العشرين. المادة: حرير وخيوط معدنية.",
+      dimensions: "٢٠١ × ٢٠٦ سم"
+    }
+  },
+  {
+    id: 20,
+    image: "/assets/exhibit20.png",
+    uz: {
+      shortTitle: "“Alloh” panno",
+      title: "“Alloh” yozuvli panno",
+      description: "“Alloh” yozuvli panno. Usmonlilar saltanati, XIX asr oxiri – XX asr boshi. Ashyosi: ipak va metall tolalar.",
+      dimensions: "202 × 205 sm"
+    },
+    en: {
+      shortTitle: "\"Allah\" Panel",
+      title: "Panel with the Inscription “Allah”",
+      description: "Panel with the Inscription “Allah”. Ottoman Empire, late 19th – early 20th century. Materials: silk and metallic threads.",
+      dimensions: "202 × 205 cm"
+    },
+    ar: {
+      shortTitle: "لوحة الله",
+      title: "لوحة تحمل لفظ الجلالة ”الله“",
+      description: "لوحة تحمل لفظ الجلالة ”الله“. الدولة العثمانية، أواخر القرن التاسع عشر – أوائل القرن العشرين. المادة: حرير وخيوط معدنية.",
+      dimensions: "٢٠٢ × ٢٠٥ سم"
+    }
+  },
+  {
+    id: 21,
+    image: "/assets/exhibit21.png",
+    uz: {
+      shortTitle: "Duo kitobi",
+      title: "“Dalāil al-xayrot” va “Al-hizb al-aʼzam” asarlaridan iborat duo kitobi",
+      description: "“Dalāil al-xayrot” va “Al-hizb al-aʼzam” asarlaridan iborat duo kitobi. Muallif: Imomzoda al-Haj Muhammad. Yaratilgan davri: 1793–1795-yillar.",
+      dimensions: "15.8 × 20.2 sm"
+    },
+    en: {
+      shortTitle: "Prayer Book",
+      title: "Prayer Book Containing Dalāʾil al-Khayrāt and Al-Ḥizb al-Aʿzham",
+      description: "Prayer Book containing Dalāʾil al-Khayrāt and Al-Ḥizb al-Aʿẓam. Author: Imomzoda al-Hajj Muhammad. Date: 1793–1795.",
+      dimensions: "15.8 × 20.2 cm"
+    },
+    ar: {
+      shortTitle: "كتاب أدعية",
+      title: "كتاب أدعية يضم كتابي ”دلائل الخيرات“ و”الحزب الأعظم“",
+      description: "كتاب أدعية يضم كتابي ”دلائل الخيرات“ و”الحزب الأعظم“. المؤلف: الإمام زاده الحاج محمد. تاريخ النسخ: ١٧٩٣–١٧٩٥م.",
+      dimensions: "١٥.٨ × ٢٠.٢ سم"
     }
   }
 ];
